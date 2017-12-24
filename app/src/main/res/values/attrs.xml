@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义切换状态的View-->
+    <declare-styleable name="StateView">
+        <attr name="state_color" format="color"/>
+        <attr name="state" format="enum">
+            <enum name="open" value="0"/>
+            <enum name="close" value="1"/>
+        </attr>
+        <attr name="cx" format="dimension"/>
+    </declare-styleable>
+</resources>
